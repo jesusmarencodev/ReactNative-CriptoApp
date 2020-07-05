@@ -13,6 +13,8 @@ const App = () => {
   const [resultado, setResultado] = useState({});
   const [cargando, setCargando] = useState(false);
 
+  console.log("practicando reactNative");
+
   useEffect(() => {
     const cotizarCRiptomonedas = async () => {
       if(consultarAPI){
